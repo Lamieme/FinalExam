@@ -1,0 +1,109 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;500&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Roboto;
+  }
+
+  body {
+      /* background-color: #849FFF; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 90px;
+  }
+
+  .container {
+      display: flex;
+      width: 1300px;
+      height: 700px;
+      flex-direction: column;
+      gap: 50px;
+      background-color: white;
+  }
+
+  .search-bar {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+  }
+
+  a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: black;
+  }
+
+  h1 {
+      background-color: white;
+  }
+
+  .newUsers {
+      background-color: #849FFF;
+      color: white;
+      border-radius: 8px;
+      padding: 16px;
+  }
+
+  .d-flex {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+  }
+
+  .form-control.me-2 {
+      border-radius: 4px;
+      border: 1px solid var(--bfc-8-e-6, #BFC8E5);
+      padding: 16px;
+  }
+
+  .content {
+      display: flex;
+      align-items: center;
+      margin-top: 70px;
+      background-color: white;
+  }
+
+  .hobby {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 200px;
+
+
+  }
+
+  .hobby p {
+      border: 1px solid #849FFF;
+      border-radius: 8px;
+      padding: 2px;
+      color: #849FFF;
+
+  }
+
+  .info {
+      font-weight: 500;
+      padding-bottom: 15px;
+  }
+
+  .content-info {
+      margin-left: 20px;
+  }
+
+  .user-container {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .user-group {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .form-control.me-2 {
+      width: 500px;
+  }
